@@ -1,0 +1,47 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.title {
+    font-size: 3em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.control-panel {
+    text-align: center;
+}
+
+    .control-panel button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        margin: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+        .control-panel button:active {
+            background-color: #45a049;
+        }
+
+#connect-button {
+    background-color: #007BFF;
+    margin-bottom: 20px;
+}
+
+    #connect-button.connected {
+        background-color: #28a745;
+    }
+
+#stop {
+    background-color: #FF0000;
+}
